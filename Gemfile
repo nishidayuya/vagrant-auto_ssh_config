@@ -1,4 +1,9 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in vagrant-auto_ssh_config.gemspec
-gemspec
+group :development do
+  gem "vagrant", github: "mitchellh/vagrant"
+end
+
+group :plugins do
+  gem "vagrant-auto_ssh_config", path: "."
+end

@@ -8,8 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = Vagrant::AutoSshConfig::VERSION
   spec.authors       = ["Yuya.Nishida."]
   spec.email         = ["yuya@j96.org"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = "A vagrant plugin for automatically generating ssh_config entry."
   spec.homepage      = ""
   spec.license       = "X11"
 

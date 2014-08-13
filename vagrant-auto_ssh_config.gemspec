@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Yuya.Nishida."]
   spec.email         = ["yuya@j96.org"]
   spec.summary       = "A vagrant plugin for automatically generating ssh_config entry."
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/nishidayuya/vagrant-auto_ssh_config"
   spec.license       = "X11"
 
   spec.files         = `git ls-files -z`.split("\x0")

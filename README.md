@@ -1,6 +1,6 @@
-# Vagrant::AutoSshConfig
+# vagrant-auto_ssh_config
 
-TODO: Write a gem description
+A vagrant plugin for automatically generating ssh_config entry.
 
 ## Installation
 

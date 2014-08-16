@@ -4,19 +4,9 @@ A vagrant plugin for automatically generating ssh_config entry.
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'vagrant-auto_ssh_config'
+```sh
+$ vagrant plugin install vagrant-auto_ssh_config
 ```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install vagrant-auto_ssh_config
 
 ## Usage
 

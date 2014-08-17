@@ -10,7 +10,9 @@ $ vagrant plugin install vagrant-auto_ssh_config
 
 ## Usage
 
-TODO: Write usage instructions here
+After plugin installed and run "vagrant up", you can login vagrant machine by "ssh vagrant-latest" without "vagrant ssh-config --host vagrant-latest >> ~/.ssh/config".
+
+This plugin creates/updates ssh_config entry at "vagrant up". And it deletes ssh_config entry for "vagrant-latest" at "vagrant halt".
 
 ## Contributing
 

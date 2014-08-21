@@ -40,7 +40,7 @@ module Vagrant
               f.truncate(f.pos)
             end
           end
-          env[:ui].info("#{done_prefix} ssh_config for current box.")
+          env[:ui].detail("#{done_prefix} ssh_config for current box.")
         end
 
         private

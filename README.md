@@ -16,6 +16,10 @@ After plugin installed and run "vagrant up", you can login vagrant machine by "s
 
 This plugin creates/updates ssh_config entry at "vagrant up". And it deletes ssh_config entry for "vagrant-latest" at "vagrant halt".
 
+## News
+
+0. 2014-11-06 0.0.0 First release.
+
 ## Development
 
 ### Test on Vagrant machine

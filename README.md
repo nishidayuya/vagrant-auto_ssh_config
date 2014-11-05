@@ -2,6 +2,8 @@
 
 A vagrant plugin for automatically generating ssh_config entry.
 
+[![License X11](https://img.shields.io/badge/license-X11-brightgreen.svg)](https://raw.githubusercontent.com/nishidayuya/vagrant-auto_ssh_config/master/LICENSE.txt)
+
 ## Installation
 
 ```sh
